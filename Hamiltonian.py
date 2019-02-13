@@ -31,6 +31,7 @@ k = 8.0
 sigma = 20.0/k
 psi = np.exp(1j*k*x)*np.exp(-(x/sigma)**2)     
 #Hamiltonian = T+V
+
 plt.figure()
 plt.plot(x,y)
 plt.plot(x,abs(psi)/50)
